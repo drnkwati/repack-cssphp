@@ -1,0 +1,58 @@
+{
+    "name": "drnkwati/repack-cssphp",
+    "description": "PHP 5.3 three in one packages for CSS beutification, minification and inline HTML styles.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "John Reeve",
+        "email": "jreeve@pelagodesign.com"
+    },
+    {
+        "name": "Cameron Brooks"
+    },
+    {
+        "name": "Jaime Prado"
+    },
+    {
+        "name": "Oliver Klee",
+        "email": "github@oliverklee.de"
+    },
+    {
+        "name": "Roman Ožana",
+        "email": "ozana@omdesign.cz"
+    },
+    {
+        "name": "Zoli Szabó",
+        "email": "zoli.szabo+github@gmail.com"
+    },
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3.3",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Repack\\CssPhp\\": "src"
+        }
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config":
+    {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
